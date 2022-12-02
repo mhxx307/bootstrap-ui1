@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+
+:root {
+    --primary-color: rgb(82, 64, 120);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Gamja Flower", cursive;
+    font-size: 2rem;
+}
+
+/* navigation */
+.navbar {
+    background-color: rgba(82, 64, 120, 0.9) !important;
+}
+
+/* carousel */
+.carousel-inner img {
+    width: 100%;
+    height: calc(100vh - 56px);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 20%;
+}
+
+.carousel-inner h1,
+h3,
+h4 {
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px #000;
+}
+
+.carousel-caption h1 {
+    font-size: 10rem;
+}
+
+.carousel-caption h3 {
+    font-size: 4rem;
+}
+
+.carousel-caption h4 {
+    font-size: 2rem;
+}
+
+.btn-outline-light:hover {
+    opacity: 0.8;
+    border: 1px solid #fff;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: 1px solid #fff;
+}
+
+.btn-primary:hover {
+    background-color: rgb(62, 44, 100);
+    opacity: 0.8;
+    border: 1px solid #fff;
+}
+
+.jumbotron {
+    border-radius: 0;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome hr {
+    border-top: 2px solid var(--primary-color);
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+/* jumbotron */
+.btn-outline-secondary {
+    font-size: 2rem;
+}
+
+.fa-css3,
+.fa-react,
+.fa-node-js {
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+.fa-css3 {
+    color: #d76537;
+}
+.fa-react {
+    color: #81d8f7;
+}
+.fa-node-js {
+    color: rgb(177, 43, 55);
+}
+
+.fun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 3px;
+    outline: none;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.card-text::first-letter {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.btn-outline-primary {
+    font-size: 2rem;
+}
+
+.social a {
+    font-size: 6rem;
+    padding: 20px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-twitter {
+    color: #1da1f2;
+}
+.fa-youtube {
+    color: #ff0000;
+}
+.fa-instagram {
+    color: #e4405f;
+}
+.fa-twitch {
+    color: #6441a5;
+}
+
+footer {
+    background-color: #666;
+    color: #fff;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
